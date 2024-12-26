@@ -1,0 +1,41 @@
+#analyze-playlist-btn{
+    width: 400px;
+    margin-left: 50px;
+    text-align: center;
+    font-size: 1rem;
+    font-weight: bold;
+    letter-spacing: 0.15rem;
+    font-family: 'Lexend Peta';
+}
+
+.song-item {
+    cursor: pointer;
+    padding-left: 10px;
+    padding-right: 10px;
+    color: white;
+    display: flex;
+    flex-direction: row;
+    gap: 2px;
+    align-items: center;
+    transition: color 0.5s ease;
+    justify-content: center;
+  }
+  
+  .song-item:hover {
+    color: black;
+    background-image: linear-gradient(to left, transparent, white, transparent);
+  }
+
+.my-gap{
+    margin-bottom: 2%;
+  }
+
+.wrapper {
+    position: relative;
+  }
+
+.content {
+    position: relative;
+    z-index: 10;
+  }
+

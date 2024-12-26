@@ -1,0 +1,40 @@
+.plots-grid {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 100px;
+    padding: 20px;
+    margin-top: 100px
+}
+
+.plot img {
+    width: 100%; /* Scale image to fit the container */
+    height: auto; /* Maintain aspect ratio */
+    padding: 5px; /* Optional padding inside the image border */
+}
+
+.plot {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: 'Lexend Peta';
+    font-size: 2rem;
+}
+
+.switch {
+    display: flex;
+    align-items: center;
+    font-family: 'Lexend Peta';;
+}
+
+#recommend-songs-btn{
+    width: 400px;
+    margin-left: 50px;
+    text-align: center;
+    font-size: 1rem;
+    font-weight: bold;
+    font-family: 'Lexend Peta';
+    letter-spacing: 0.15rem;
+    margin-bottom: 60px;
+}

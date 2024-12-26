@@ -1,0 +1,9 @@
+.navbar-style{
+    font-family: 'Lexend Peta';
+    cursor: pointer;
+    font-size: 1.2rem;
+}
+.navbar-style:hover {
+    color: #1dda63; /* Custom hover color */
+    /* Add other hover styles as needed */
+}
